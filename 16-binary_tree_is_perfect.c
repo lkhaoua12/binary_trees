@@ -45,7 +45,6 @@ int binary_tree_is_perfect(const binary_tree_t *tree)
 
 		l = binary_tree_heightt(tree->left);
 		r = binary_tree_heightt(tree->right);
-		printf("%lu, %lu", l, r);
 		return (l == r && binary_tree_is_fulll(tree));
 	}
 
